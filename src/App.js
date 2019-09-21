@@ -11,13 +11,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" onClick={()=> refreshPage()}/>
         <p>
         Your suggestions for today are to combine 
         <Pair />
         </p>
       </header>
-      <button onClick={()=> refreshPage()}>New Suggestions</button>
     </div>
   );
 }
