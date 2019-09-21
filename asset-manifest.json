@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ideagen/static/css/main.b100e6da.chunk.css",
+    "main.js": "/ideagen/static/js/main.c02db2e7.chunk.js",
+    "main.js.map": "/ideagen/static/js/main.c02db2e7.chunk.js.map",
+    "runtime-main.js": "/ideagen/static/js/runtime-main.98be4e59.js",
+    "runtime-main.js.map": "/ideagen/static/js/runtime-main.98be4e59.js.map",
+    "static/js/2.48dab418.chunk.js": "/ideagen/static/js/2.48dab418.chunk.js",
+    "static/js/2.48dab418.chunk.js.map": "/ideagen/static/js/2.48dab418.chunk.js.map",
+    "index.html": "/ideagen/index.html",
+    "precache-manifest.f647cb72131c5a52f52f604f1e1d9efb.js": "/ideagen/precache-manifest.f647cb72131c5a52f52f604f1e1d9efb.js",
+    "service-worker.js": "/ideagen/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/ideagen/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/ideagen/static/media/logo.25bf045c.svg"
+  }
+}
