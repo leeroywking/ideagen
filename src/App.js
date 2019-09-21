@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './lightbright.png';
 import './App.css';
 import Pair from './resources/list.js'
 
@@ -13,17 +13,6 @@ function App() {
         Your suggestions for today are to combine 
         <Pair />
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-
-          
-
-        </a>
       </header>
     </div>
   );
