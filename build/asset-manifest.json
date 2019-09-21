@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ideagen/static/css/main.b100e6da.chunk.css",
-    "main.js": "/ideagen/static/js/main.4f6d46da.chunk.js",
-    "main.js.map": "/ideagen/static/js/main.4f6d46da.chunk.js.map",
+    "main.js": "/ideagen/static/js/main.ee23c825.chunk.js",
+    "main.js.map": "/ideagen/static/js/main.ee23c825.chunk.js.map",
     "runtime-main.js": "/ideagen/static/js/runtime-main.98be4e59.js",
     "runtime-main.js.map": "/ideagen/static/js/runtime-main.98be4e59.js.map",
     "static/js/2.48dab418.chunk.js": "/ideagen/static/js/2.48dab418.chunk.js",
     "static/js/2.48dab418.chunk.js.map": "/ideagen/static/js/2.48dab418.chunk.js.map",
     "index.html": "/ideagen/index.html",
-    "precache-manifest.16af66fdb05a076296bb1d0cb955d04d.js": "/ideagen/precache-manifest.16af66fdb05a076296bb1d0cb955d04d.js",
+    "precache-manifest.1aced0b4670ebaac0ff7e6ef60938ada.js": "/ideagen/precache-manifest.1aced0b4670ebaac0ff7e6ef60938ada.js",
     "service-worker.js": "/ideagen/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/ideagen/static/css/main.b100e6da.chunk.css.map",
     "static/media/lightbright.png": "/ideagen/static/media/lightbright.8d898f3f.png"
