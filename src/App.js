@@ -3,6 +3,9 @@ import logo from './lightbright.png';
 import './App.css';
 import Pair from './resources/list.js'
 
+function refreshPage(){
+  window.location.reload();
+}
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
         <Pair />
         </p>
       </header>
+      <button onClick={()=> refreshPage()}>New Suggestions</button>
     </div>
   );
 }
