@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" onClick={()=> refreshPage()}/>
         <p>
-        Your suggestions for today are to combinate 
+        Your suggestions for today are to work on this! 
         <Pair />
         </p>
       </header>
