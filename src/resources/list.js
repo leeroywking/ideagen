@@ -13,7 +13,16 @@ let list = [
 "Army",
 "Military",
 "Sigint",
-"Raspberry pi"
+"Raspberry pi",
+"accessibility",
+"hiking",
+"edge compute",
+"comedy",
+"tiny living",
+"ultralight",
+"web development",
+"linux",
+"the thing to your left"
 ]
 
 function returnrandPair(){
