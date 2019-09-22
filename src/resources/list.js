@@ -14,15 +14,15 @@ let list = [
 "Military",
 "Sigint",
 "Raspberry pi",
-"accessibility",
-"hiking",
-"edge compute",
-"comedy",
-"tiny living",
-"ultralight",
-"web development",
-"linux",
-"the thing to your left"
+"Accessibility",
+"Hiking",
+"Edge compute",
+"Comedy",
+"Tiny living",
+"Ultralight",
+"Web development",
+"Linux",
+"The thing to your left"
 ]
 
 function returnrandPair(){
