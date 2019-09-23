@@ -27,7 +27,8 @@
   top: 50%;
   left:0%;
   height: 100px;
-
+  background: #333;
+  color: white;
   transform: translateY(-50%);
 }
 
