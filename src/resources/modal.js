@@ -23,7 +23,7 @@ const ModalWrapper = styled.div`
   background: black;
   max-height: 80vh;
   z-index: 999999;
-  overflow: scroll;
+  overflow: hidden;
 `;
 
 const ModalHeader = styled.div`
@@ -41,6 +41,7 @@ const ModalHeader = styled.div`
 const ModalTitle = styled.h2`
   width: 100%;
   margin: 0;
+  background: black;
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 3.5;
