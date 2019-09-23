@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+.slidebutton {
+  position: absolute;
+  top: 50%;
+  left:0%;
+  height: 100px;
+
+  transform: translateY(-50%);
+}

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
 
@@ -29,10 +29,19 @@ const ModalWithTransitionStyles = styled(Modal)`
 
 
 
-function modalForm(){
-  let formData, setFormData
-  [formData, setFormData] = useState()
-  
+// function modalForm(props){  
+
+
+//   return(
+
+
+
+// )};
+
+const SlidingModal = ({ props }) => {
+    let formData,setFormData;
+    [formData, setFormData] = useState({})
+
   function changer(e){
     // setFormState({...formState , e.target})
     console.log(e.target.name)
@@ -44,18 +53,6 @@ function modalForm(){
     e.preventDefault()
     console.log(formData)
   }
-
-  return(
-
-<form onSubmit={(e) => doit(e)}>
-  <input type="text" name="newPrompt" onChange={(e) => changer(e)}/>
-  <br/>
-  <button >submit </button>
-</form>
-
-)};
-
-const SlidingModal = ({ props }) => {
   const [isOpen, toggleOpen] = useToggle(false);
 
   return (
@@ -76,7 +73,11 @@ const SlidingModal = ({ props }) => {
           onClose={toggleOpen}
           onSave={toggleOpen}
         >
-          {modalForm()}
+          <form onSubmit={(e) => doit(e)}>
+  <input type="text" name="newPrompt" onChange={(e) => changer(e)}/>
+  <br/>
+  <button >submit </button>
+</form>
         </ModalWithTransitionStyles>
       </CSSTransition>
     </>
