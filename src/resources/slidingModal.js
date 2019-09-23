@@ -76,7 +76,7 @@ const SlidingModal = ({ props }) => {
           <form onSubmit={(e) => doit(e)}>
   <input type="text" name="newPrompt" onChange={(e) => changer(e)}/>
   <br/>
-  <button >submit </button>
+  <button className="sendit">submit </button>
 </form>
         </ModalWithTransitionStyles>
       </CSSTransition>
