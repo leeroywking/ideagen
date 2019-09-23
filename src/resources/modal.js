@@ -19,7 +19,7 @@ const ModalBackground = styled.div`
 const ModalWrapper = styled.div`
   width: 50vw;
 
-  background: blue;
+  background: black;
   max-height: 80vh;
   z-index: 999999;
   overflow: scroll;
@@ -27,7 +27,7 @@ const ModalWrapper = styled.div`
 
 const ModalHeader = styled.div`
   display: flex;
-  background: green;
+  background: light-yellow;
   font-size: 0.6875rem;
   line-height: 1.2;
   letter-spacing: 0.1rem;
