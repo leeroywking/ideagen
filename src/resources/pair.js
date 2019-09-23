@@ -16,7 +16,7 @@ let list = [
 "Raspberry pi",
 "Accessibility",
 "Hiking",
-"Edge compute",
+"Edge computing",
 "Comedy",
 "Tiny living",
 "Ultralight",

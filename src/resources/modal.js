@@ -14,11 +14,12 @@ const ModalBackground = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow:hidden;
 `;
 
 const ModalWrapper = styled.div`
   width: 50vw;
-
+  overflow:hidden;
   background: black;
   max-height: 80vh;
   z-index: 999999;
