@@ -35,6 +35,10 @@
   width:100%;
   height:1.5em;
   color:white;
-  background: grey;
+  background: #333;
   display: block;
+}
+
+.textInput{
+  width:100%
 }

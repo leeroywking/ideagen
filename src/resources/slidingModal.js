@@ -74,7 +74,7 @@ const SlidingModal = ({ props }) => {
           onSave={toggleOpen}
         >
           <form onSubmit={(e) => doit(e)}>
-  <input type="text" name="newPrompt" onChange={(e) => changer(e)}/>
+  <input type="text" name="newPrompt" className="textInput" onChange={(e) => changer(e)}/>
   <br/>
   <button className="sendit">submit </button>
 </form>
