@@ -32,8 +32,9 @@
 }
 
 .sendit {
-  width:2em;
+  width:100%;
   height:1.5em;
   color:white;
   background: grey;
+  display: block;
 }
