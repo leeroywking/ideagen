@@ -5,7 +5,9 @@ import styled from 'styled-components';
 import Modal from './modal.js';
 import { useToggle } from './useToggle.js';
 
-
+// most of this code lifted from 
+//react-sliding-modal-with-rtg-gsap-and-portals
+//by ostgals on codesandbox
 
 const duration = 250;
 

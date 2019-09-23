@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+// most of this code lifted from 
+//react-sliding-modal-with-rtg-gsap-and-portals
+//by ostgals on codesandbox
+
 
 const ModalBackground = styled.div`
   background: rgba(0, 0, 0, 0.84);

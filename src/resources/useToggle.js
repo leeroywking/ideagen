@@ -1,3 +1,7 @@
+// most of this code lifted from 
+//react-sliding-modal-with-rtg-gsap-and-portals
+//by ostgals on codesandbox
+
 import { useState, useCallback } from "react";
 
 export const useToggle = initial => {
