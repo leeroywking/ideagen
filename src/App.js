@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './lightbright.png';
+import logo from './lightbulbYellow.png';
 import './App.css';
-import Pair from './resources/list.js'
+import Pair from './resources/pair.js'
 
 function refreshPage(){
   window.location.reload();
