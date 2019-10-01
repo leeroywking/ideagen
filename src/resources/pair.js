@@ -22,7 +22,8 @@ let list = [
 "Ultralight",
 "Web development",
 "Linux",
-"The thing to your left"
+"The thing to your left",
+"git"
 ]
 
 function returnrandPair(){
