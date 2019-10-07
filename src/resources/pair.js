@@ -1,5 +1,4 @@
 import React from 'react'
-import listContext from './context.js'
 
 class ReturnRandPair extends React.Component {
     constructor(props) {
