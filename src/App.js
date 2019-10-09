@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* Need to implement context for this element  */}
         <img src={logo} className="App-logo" alt="logo" onClick={()=> refreshPage()}/>
         <div className="titletext">Your suggestions for today are to think about this!!</div> 
         <p>
