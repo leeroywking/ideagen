@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* best laid plans of mice and men :( */}
+        {/* best laid plans of mice and men :( */}  
         <img src={logo} className="App-logo" alt="logo" onClick={()=> shiftOff()}/>
         <div className="titletext">Your suggestions for today are to think about this!!</div> 
         <p>
