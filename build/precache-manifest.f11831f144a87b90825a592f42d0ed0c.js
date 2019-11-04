@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "099c74a039c45a2cb560e22e54e77060",
+    "revision": "382eb4e1288e23fe63bbff199ab18f91",
     "url": "/ideagen/index.html"
   },
   {
-    "revision": "7d5bdafaa2705bd73715",
+    "revision": "26293736557843aafa94",
     "url": "/ideagen/static/css/main.49f1b44f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ideagen/static/js/2.89a1e74e.chunk.js"
   },
   {
-    "revision": "7d5bdafaa2705bd73715",
-    "url": "/ideagen/static/js/main.c3f88390.chunk.js"
+    "revision": "26293736557843aafa94",
+    "url": "/ideagen/static/js/main.d8d4f7de.chunk.js"
   },
   {
     "revision": "a3bd8d162480e4e3a27c",

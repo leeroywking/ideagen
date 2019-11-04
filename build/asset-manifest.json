@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ideagen/static/css/main.49f1b44f.chunk.css",
-    "main.js": "/ideagen/static/js/main.c3f88390.chunk.js",
-    "main.js.map": "/ideagen/static/js/main.c3f88390.chunk.js.map",
+    "main.js": "/ideagen/static/js/main.d8d4f7de.chunk.js",
+    "main.js.map": "/ideagen/static/js/main.d8d4f7de.chunk.js.map",
     "runtime-main.js": "/ideagen/static/js/runtime-main.98be4e59.js",
     "runtime-main.js.map": "/ideagen/static/js/runtime-main.98be4e59.js.map",
     "static/js/2.89a1e74e.chunk.js": "/ideagen/static/js/2.89a1e74e.chunk.js",
     "static/js/2.89a1e74e.chunk.js.map": "/ideagen/static/js/2.89a1e74e.chunk.js.map",
     "index.html": "/ideagen/index.html",
-    "precache-manifest.7b8813f1ca2c3339957045d47ac412c3.js": "/ideagen/precache-manifest.7b8813f1ca2c3339957045d47ac412c3.js",
+    "precache-manifest.f11831f144a87b90825a592f42d0ed0c.js": "/ideagen/precache-manifest.f11831f144a87b90825a592f42d0ed0c.js",
     "service-worker.js": "/ideagen/service-worker.js",
     "static/css/main.49f1b44f.chunk.css.map": "/ideagen/static/css/main.49f1b44f.chunk.css.map",
     "static/media/lightbulbYellow.png": "/ideagen/static/media/lightbulbYellow.6edb6d85.png"

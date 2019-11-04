@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-// most of this code lifted from 
+// most of this code lifted from
 //react-sliding-modal-with-rtg-gsap-and-portals
 //by ostgals on codesandbox
-
 
 const ModalBackground = styled.div`
   background: rgba(0, 0, 0, 0.84);
@@ -18,12 +17,12 @@ const ModalBackground = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow:hidden;
+  overflow: hidden;
 `;
 
 const ModalWrapper = styled.div`
   width: 50vw;
-  overflow:hidden;
+  overflow: hidden;
   background: black;
   max-height: 80vh;
   z-index: 999999;
@@ -105,12 +104,12 @@ Modal.propTypes = {
   /**
    * Whether to show a close icon
    */
-  showCloseIcon: PropTypes.bool,
+  showCloseIcon: PropTypes.bool
 };
 
 Modal.defaultProps = {
   onClose: null,
-  showCloseIcon: true,
+  showCloseIcon: true
 };
 
 export default Modal;

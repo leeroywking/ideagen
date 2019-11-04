@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import Modal from './modal.js';
 import { useToggle } from './useToggle.js';
 
-// most of this code lifted from 
+// most of this code lifted from
 //react-sliding-modal-with-rtg-gsap-and-portals
 //by ostgals on codesandbox
 
@@ -28,58 +28,57 @@ const ModalWithTransitionStyles = styled(Modal)`
   }
 `;
 
-
-
-
-// function modalForm(props){  
-
+// function modalForm(props){
 
 //   return(
-
-
 
 // )};
 
 const SlidingModal = ({ props }) => {
-    let formData,setFormData;
-    [formData, setFormData] = useState({})
+  let formData, setFormData;
+  [formData, setFormData] = useState({});
 
-  function changer(e){
+  function changer(e) {
     // setFormState({...formState , e.target})
-    console.log(e.target.name)
-    console.log(e.target.value)
-    setFormData({...formData, [e.target.name]:e.target.value})
+    console.log(e.target.name);
+    console.log(e.target.value);
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   }
 
-  function doit(e){
-    e.preventDefault()
-    console.log(formData)
+  function doit(e) {
+    e.preventDefault();
+    console.log(formData);
   }
   const [isOpen, toggleOpen] = useToggle(false);
 
   return (
     <>
-      <button type="button" className="slidebutton" onClick={toggleOpen}>
+      <button type='button' className='slidebutton' onClick={toggleOpen}>
         Add >
       </button>
       <CSSTransition
         in={isOpen}
-        className="modal-transition"
-        classNames="modal-transition"
+        className='modal-transition'
+        classNames='modal-transition'
         unmountOnExit
         timeout={duration}
       >
         <ModalWithTransitionStyles
-          title="new idea?"
+          title='new idea?'
           open={isOpen}
           onClose={toggleOpen}
           onSave={toggleOpen}
         >
-          <form onSubmit={(e) => doit(e)}>
-  <input type="text" name="newPrompt" className="textInput" onChange={(e) => changer(e)}/>
-  <br/>
-  <button className="sendit">submit </button>
-</form>
+          <form onSubmit={e => doit(e)}>
+            <input
+              type='text'
+              name='newPrompt'
+              className='textInput'
+              onChange={e => changer(e)}
+            />
+            <br />
+            <button className='sendit'>submit </button>
+          </form>
         </ModalWithTransitionStyles>
       </CSSTransition>
     </>
